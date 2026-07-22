@@ -1,31 +1,43 @@
-# Hotel_Management_System
-Overview
+ # Hotel Reservation System
 
-The Hotel Reservation System is a Java based console application developed using Object Oriented Programming principles. It provides a simple and efficient solution for managing hotel room reservations, customer information, billing, and reservation records. The project demonstrates the practical implementation of Core Java concepts including Collections Framework, File Handling, and Exception Handling.
+## Overview
 
-Features
+The **Hotel Reservation System** is a Java-based console application developed using **Object-Oriented Programming (OOP)** principles. It provides a simple and efficient solution for managing hotel room reservations, customer information, billing, and reservation records.
 
-View available rooms
-Search rooms by room number
-Book hotel rooms
-Customer check in
-Customer check out
-Cancel reservations
-Generate customer bills
-Save reservation data to a file
-Load reservation data from a file
-Handle invalid user input using exception handling
-Technologies Used
+This project demonstrates the practical implementation of **Core Java** concepts, including the Collections Framework, File Handling, and Exception Handling.
 
-Java
-Object Oriented Programming
-Collections Framework
-File Handling
-Exception Handling
-Eclipse IDE
-Project Structure
+---
 
-Hotel-Reservation-System
+## Features
+
+- View available rooms
+- Search rooms by room number
+- Book hotel rooms
+- Customer check-in
+- Customer check-out
+- Cancel reservations
+- Generate customer bills
+- Save reservation data to a file
+- Load reservation data from a file
+- Handle invalid user input using exception handling
+
+---
+
+## Technologies Used
+
+- Java
+- Object-Oriented Programming (OOP)
+- Collections Framework
+- File Handling
+- Exception Handling
+- Eclipse IDE
+
+---
+
+## Project Structure
+
+```
+Hotel_Management_System/
 │
 ├── Main.java
 ├── Hotel.java
@@ -34,52 +46,77 @@ Hotel-Reservation-System
 ├── Reservation.java
 ├── reservations.txt
 └── README.md
-Project Modules
+```
 
-Room Management
+---
 
-Display available rooms
-Search rooms
-Manage room information
-Customer Management
+## Project Modules
 
-Register customers
-Store customer details
-Reservation Management
+### Room Management
+- Display available rooms
+- Search rooms
+- Manage room information
 
-Book rooms
-Cancel reservations
-Hotel Management
+### Customer Management
+- Register customers
+- Store customer details
 
-Customer check in
-Customer check out
-Bill generation
-Save and load reservation records
-User Interface
+### Reservation Management
+- Book rooms
+- Cancel reservations
 
-Menu driven console application
-User input handling
-Software Requirements
+### Hotel Management
+- Customer check-in
+- Customer check-out
+- Bill generation
+- Save and load reservation records
 
-Java Development Kit JDK 8 or later
-Eclipse IDE or any Java IDE
-Hardware Requirements
+### User Interface
+- Menu-driven console application
+- User input handling
 
-Processor Intel Core i3 or higher
-RAM 4 GB or higher
-Storage Minimum 100 MB free disk space
-Installation
+---
 
-Clone the repository.
-git clone https://github.com/your-username/Hotel-Reservation-System.git
-Open the project in Eclipse, IntelliJ IDEA, or any Java IDE.
+## Software Requirements
+
+- Java Development Kit (JDK 8 or later)
+- Eclipse IDE, IntelliJ IDEA, or any Java IDE
+
+---
+
+## Hardware Requirements
+
+- Processor: Intel Core i3 or higher
+- RAM: 4 GB or higher
+- Storage: Minimum 100 MB free disk space
+
+---
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/parasuram423/Hotel_Management_System.git
+```
+
+### Open the project
+
+Open the project in **Eclipse**, **IntelliJ IDEA**, or any Java IDE.
+
+### Compile
 
 Compile all Java source files.
 
-Run the Main.java file.
+### Run
 
-Application Menu
+Run the `Main.java` file.
 
+---
+
+## Application Menu
+
+```
 HOTEL RESERVATION SYSTEM
 
 1. View Rooms
@@ -92,21 +129,29 @@ HOTEL RESERVATION SYSTEM
 8. Save Reservations
 9. Load Reservations
 10. Exit
-Core Java Concepts Demonstrated
+```
 
-Classes and Objects
-Encapsulation
-Constructors
-Collections Framework
-File Handling
-Exception Handling
-Methods
-Conditional Statements
-Loops
-Sample Output
+---
 
-Room Booking
+## Core Java Concepts Demonstrated
 
+- Classes and Objects
+- Encapsulation
+- Constructors
+- Collections Framework
+- File Handling
+- Exception Handling
+- Methods
+- Conditional Statements
+- Loops
+
+---
+
+## Sample Output
+
+### Room Booking
+
+```
 Customer ID : 1
 Name : David
 Phone : 9876543210
@@ -114,44 +159,68 @@ Phone : 9876543210
 Room Number : 102
 
 Room Booked Successfully.
-Bill Generation
+```
 
+### Bill Generation
+
+```
 Room Number : 102
 Days Stayed : 5
 
 Total Bill = 400
-Advantages
+```
 
-Simple and easy to understand
-Efficient room reservation process
-Prevents duplicate bookings
-Persistent storage using file handling
-Demonstrates essential Core Java concepts
-Suitable for academic and learning purposes
-Limitations
+---
 
-Console based user interface
-No database integration
-No authentication system
-Reservation data is stored in text files
-Future Enhancements
+## Advantages
 
-MySQL database integration
-Graphical User Interface using Java Swing or JavaFX
-User authentication and authorization
-Online payment integration
-Admin management module
-Room image support
-Date based reservation system
-Email and SMS notifications
-Learning Outcomes
+- Simple and easy to understand
+- Efficient room reservation process
+- Prevents duplicate bookings
+- Persistent storage using file handling
+- Demonstrates essential Core Java concepts
+- Suitable for academic and learning purposes
 
-This project demonstrates practical knowledge of the following concepts.
+---
 
-Core Java Programming
-Object Oriented Programming
-Collections Framework
-File Handling
-Exception Handling
-Console Application Development
-Modular Software Design
+## Limitations
+
+- Console-based user interface
+- No database integration
+- No authentication system
+- Reservation data is stored in text files
+
+---
+
+## Future Enhancements
+
+- MySQL database integration
+- Graphical User Interface (GUI) using Java Swing or JavaFX
+- User authentication and authorization
+- Online payment integration
+- Admin management module
+- Room image support
+- Date-based reservation system
+- Email and SMS notifications
+
+---
+
+## Learning Outcomes
+
+This project demonstrates practical knowledge of:
+
+- Core Java Programming
+- Object-Oriented Programming (OOP)
+- Collections Framework
+- File Handling
+- Exception Handling
+- Console Application Development
+- Modular Software Design
+
+---
+
+## Author
+
+**Parasuram S**
+
+GitHub: https://github.com/parasuram423
